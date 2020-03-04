@@ -1,0 +1,37 @@
+{
+  "name": "github-actions",
+  "version": "1.0.1",
+  "description": "An op to create and setup Github Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register -u bdd **/*.test.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cto.ai/sdk": "^2.1.1",
+    "@octokit/auth": "^1.1.1",
+    "@octokit/rest": "^16.40.0",
+    "@types/js-yaml": "^3.12.2",
+    "@types/node": "^13.5.1",
+    "axios": "^0.19.2",
+    "js-yaml": "^3.13.1",
+    "simple-git": "^1.131.0",
+    "tweetnacl": "^1.0.3",
+    "tweetsodium": "0.0.4",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.9",
+    "@types/chai-as-promised": "^7.1.2",
+    "@types/mocha": "^7.0.1",
+    "@types/sinon": "^7.5.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.0.1",
+    "sinon": "^9.0.0",
+    "ts-node": "^8.6.2"
+  }
+}

@@ -1,0 +1,17 @@
+# for more info visit https://cto.ai/docs/ops-reference
+version: "1"
+commands:
+  - name: github-actions:1.0.1
+    public: true
+    description: An op to create and setup Github Actions
+    run: node /ops/lib/index.js
+    sdk: "2"
+    sourceCodeURL: "https://github.com/cto-ai/github-actions"
+    mountCwd: false
+    mountHome: false
+    bind:
+      - "/tmp:/tmp"
+    port:
+      - 3000:3000
+    help:
+      usage: "ops run github-actions"
