@@ -1,4 +1,4 @@
-![CTO Banner](https://raw.githubusercontent.com/cto-ai/aws/master/assets/banner.png)
+![](https://cto.ai/static/oss-banner.png)
 
 # GitHub Actions Manager
 
