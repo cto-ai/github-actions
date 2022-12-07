@@ -18,7 +18,7 @@
     "@types/node": "^13.5.1",
     "axios": "^0.19.2",
     "js-yaml": "^3.13.1",
-    "simple-git": "^1.131.0",
+    "simple-git": "^3.15.0",
     "tweetnacl": "^1.0.3",
     "tweetsodium": "0.0.4",
     "typescript": "^3.7.5"
